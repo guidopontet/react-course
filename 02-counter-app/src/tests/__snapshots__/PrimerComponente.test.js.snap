@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimerComponente should show PrimerComponente 1`] = `
+<Fragment>
+  <h1>
+    Hola Crack,
+  </h1>
+  <p>
+    Es un párrafo
+  </p>
+</Fragment>
+`;
