@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifFridItem should show component 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Title example"
+    src="https://example.com/image.png"
+  />
+  <p>
+     
+    Title example
+     
+  </p>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid should render component 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h3>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`GifGrid should show items when images are loaded 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="asd"
+      key="asd"
+      title="Example"
+      url="https://example.com/image.png"
+    />
+  </div>
+</Fragment>
+`;
