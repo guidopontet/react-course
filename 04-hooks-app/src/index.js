@@ -13,9 +13,10 @@ import ReactDOM from 'react-dom';
 // import { Memorize } from './components/06-useMemo/Memorize';
 // import { MemoHook } from './components/06-useMemo/MemoHook';
 // import { CallbackHook } from './components/06-useMemo/CallbackHook';
-import { TodoApp } from './components/07-useReducer/TodoApp';
+// import { TodoApp } from './components/07-useReducer/TodoApp';
+import { MainApp } from './components/08-useContext/MainApp';
 
 ReactDOM.render(
-  <TodoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
