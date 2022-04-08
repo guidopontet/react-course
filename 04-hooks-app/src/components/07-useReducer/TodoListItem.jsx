@@ -6,7 +6,7 @@ export const TodoListItem = ({ todo, index, handleToggle, handleDelete}) => {
         className='list-group-item'>
       <p className={ todo.done ? 'complete' : '' }
           onClick={ () => handleToggle(todo) }>
-        { index + 1 }. { todo.description }
+        { index + 1 }. { todo.text }
       </p>
 
       <button className='btn btn-danger'
